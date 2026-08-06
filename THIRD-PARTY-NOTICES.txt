@@ -1,0 +1,25 @@
+Third-party notices
+===================
+
+FFmpeg 8.1.2 essentials build for Windows x64
+
+Binary provider:
+https://www.gyan.dev/ffmpeg/builds/
+
+Fixed release asset:
+https://github.com/GyanD/codexffmpeg/releases/download/8.1.2/ffmpeg-8.1.2-essentials_build.zip
+
+Release asset SHA-256:
+db580001caa24ac104c8cb856cd113a87b0a443f7bdf47d8c12b1d740584a2ec
+
+The provider identifies this static essentials build as GPLv3. The package includes the provider's LICENSE and build README as LICENSE-FFMPEG.txt and README-FFMPEG-BUILD.txt.
+
+Corresponding FFmpeg source archive and signature are distributed alongside the Setup and Portable artifacts:
+- ffmpeg-8.1.2.tar.xz
+- ffmpeg-8.1.2.tar.xz.asc
+
+Official FFmpeg source URL:
+https://ffmpeg.org/releases/ffmpeg-8.1.2.tar.xz
+
+FFmpeg project:
+https://ffmpeg.org/
