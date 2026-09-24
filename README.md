@@ -1,6 +1,6 @@
-# 舊車機 MP3／MP4 轉檔工具
+# 媒體轉檔工具
 
-這是「舊車機 MP3／MP4 轉檔工具」的官方下載與版本發布 repo。目前正式版本為 **v1.2.0（Windows x64）**。
+這是「媒體轉檔工具」的官方下載與版本發布 repo。目前正式版本為 **v1.3.0（Windows x64）**。
 
 > 本 repo 是 release-only 發布入口，不公開程式原始碼。安裝檔與免安裝版只放在 GitHub Releases，不提交到 Git 歷史。
 
@@ -12,16 +12,19 @@
 
 一般 Windows 10／11 64-bit 電腦可選擇：
 
-- `CarMediaConverter-Setup-x64-v1.2.0.exe`：安裝版
-- `CarMediaConverter-Portable-x64-v1.2.0.zip`：免安裝版，必須完整解壓縮後使用
+- `CarMediaConverter-Setup-x64-v1.3.0.exe`：安裝版
+- `CarMediaConverter-Portable-x64-v1.3.0.zip`：免安裝版，必須完整解壓縮後使用
 
-## 已驗證輸出規格
+## 主要功能
 
-- MP3：128 kbps、44.1 kHz、雙聲道，移除高風險 metadata 與封面。
-- MP4：H.264 High Level 3.0、852×480、25 fps、yuv420p、AAC-LC 128 kbps。
-- 非 16:9 影片會等比例縮放並補黑邊，不會強制拉伸。
+- 快速轉檔：輸出通用 MP3，以及適合多數新式裝置或舊式播放設備的 MP4。
+- 影片轉檔：支援 MP4、MKV、AVI、MOV、TS、FLV、WebM、WMV、MPG、3GP 等常見容器，並可調整影像、音訊、解析度與畫質。
+- AI 畫質放大：整合 Real-ESRGAN ncnn-vulkan，可選擇 2×、3× 或 4× 放大；實際速度取決於 Vulkan GPU。
+- 批次處理：提供整體進度、預估剩餘時間、處理紀錄與逐檔結果。
+- 完成驗證：輸出完成後會完整解碼，並確認影片／音訊串流符合所選用途。
+- USB 安全同步：保留預覽、空間檢查、雜湊與原子同步流程。
 
-本工具不保證相容所有車機、媒體檔案或儲存裝置。請保留原始檔與獨立備份，並先用少量檔案在自己的車機測試。
+本工具不能保證相容所有裝置、編碼器、媒體檔案或儲存裝置。請保留原始檔與獨立備份，重要用途請先用少量檔案測試。
 
 ## 未簽章提醒
 
@@ -34,12 +37,12 @@ certutil -hashfile "下載的檔案路徑" SHA256
 ## 安全行為
 
 - 預設不覆蓋既有檔案，也不刪除原始輸入。
-- 實際寫入前會先預覽輸出名稱與檢查整批空間。
-- 轉檔完成後會完整解碼驗證並計算 SHA-256。
-- 取消或失敗時會終止 FFmpeg，並回復本次新建檔案。
+- 實際寫入前會先顯示確認內容並檢查空間。
+- 轉檔完成後會完整解碼驗證與確認必要串流。
+- 取消或失敗時會終止 FFmpeg，並清理本次未完成的輸出。
 
 ## 授權與第三方元件
 
-本工具沿用專有免費使用授權；可在自己的 Windows 電腦安裝、執行與製作個人備份，但不授權公開再散布、販售、出租、冒名發佈或修改後再散布。完整條款請見 [LICENSE.txt](./LICENSE.txt)。
+本工具採專有免費使用授權；可在自己的 Windows 電腦安裝、執行與製作個人備份，但不授權公開再散布、販售、出租、冒名發佈或修改後再散布。完整條款請見 [LICENSE.txt](./LICENSE.txt)。
 
-隨程式提供的 FFmpeg／ffprobe 是獨立執行檔，依 GNU General Public License version 3 or later 提供。每次 Release 會一併提供對應 FFmpeg 原始碼壓縮檔、簽章及第三方聲明，詳見 [THIRD-PARTY-NOTICES.txt](./THIRD-PARTY-NOTICES.txt)。
+隨程式提供的 FFmpeg／ffprobe 依 GNU General Public License version 3 or later 提供；Real-ESRGAN 與 ncnn 依各自授權提供。每次 Release 會附上相關來源、授權與第三方聲明，詳見 [THIRD-PARTY-NOTICES.txt](./THIRD-PARTY-NOTICES.txt)。

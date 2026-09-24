@@ -1,5 +1,5 @@
-舊車機 MP3／MP4 轉檔工具－使用授權
-====================================
+媒體轉檔工具－使用授權
+======================
 
 Copyright © 2026 TSY. All rights reserved.
 
@@ -7,8 +7,8 @@ Copyright © 2026 TSY. All rights reserved.
 
 在著作權人另行提供書面授權前，本授權不包含公開再散布、販售、出租、冒名發佈、修改後再散布或將本工具包裝為其他商品的權利。
 
-本工具按現狀提供，不保證適用於所有車機、媒體檔案或儲存裝置。使用者應自行保留原始檔及獨立備份。
+本工具按現狀提供，不保證適用於所有電腦、手機、電視、車機、媒體檔案或儲存裝置。使用者應自行保留原始檔及獨立備份。
 
-第三方元件 FFmpeg／ffprobe 是獨立執行檔，依 GNU General Public License version 3 or later 提供；其授權、建置資訊與來源取得方式請見 THIRD-PARTY-NOTICES.txt、LICENSE-FFMPEG.txt 與 SOURCE-FFMPEG.txt。本工具自身的授權不限制第三方元件授權所授予的權利。
+第三方元件 FFmpeg／ffprobe 是獨立執行檔，依 GNU General Public License version 3 or later 提供；Real-ESRGAN 與 ncnn 依各自的 BSD 授權提供。其授權、建置資訊與來源取得方式請見 THIRD-PARTY-NOTICES.txt 及 tools 目錄中的授權文件。本工具自身的授權不限制第三方元件授權所授予的權利。
 
-若要公開發佈本工具，著作權人應先確認本授權文字、程式碼簽章及發佈通路，不應直接以開發測試產物代替正式授權決策。
+官方公開版本目前未使用 Authenticode 程式碼簽章；請從官方 Release 或微光工具箱下載，並用隨附的 SHA-256 清單核對完整性。

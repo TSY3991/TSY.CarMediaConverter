@@ -23,3 +23,23 @@ https://ffmpeg.org/releases/ffmpeg-8.1.2.tar.xz
 
 FFmpeg project:
 https://ffmpeg.org/
+
+Real-ESRGAN ncnn-vulkan
+=======================
+
+Windows binary package lineage:
+https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0
+
+Real-ESRGAN project and models:
+https://github.com/xinntao/Real-ESRGAN
+
+License: BSD 3-Clause. The complete license is included as:
+tools/realesrgan/LICENSE-REALESRGAN.txt
+
+ncnn inference framework:
+https://github.com/Tencent/ncnn
+
+The complete ncnn license and bundled third-party notices are included as:
+tools/realesrgan/LICENSE-NCNN.txt
+
+The package intentionally excludes sample images, demo videos and the debug-only vcomp140d.dll file.
