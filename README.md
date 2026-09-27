@@ -1,6 +1,6 @@
 # 媒體轉檔工具
 
-這是「媒體轉檔工具」的官方下載與版本發布 repo。目前正式版本為 **v1.3.0（Windows x64）**。
+這是「媒體轉檔工具」的官方下載與版本發布 repo。目前正式版本為 **v1.4.0（Windows x64）**。
 
 > 本 repo 是 release-only 發布入口，不公開程式原始碼。安裝檔與免安裝版只放在 GitHub Releases，不提交到 Git 歷史。
 
@@ -12,13 +12,14 @@
 
 一般 Windows 10／11 64-bit 電腦可選擇：
 
-- `CarMediaConverter-Setup-x64-v1.3.0.exe`：安裝版
-- `CarMediaConverter-Portable-x64-v1.3.0.zip`：免安裝版，必須完整解壓縮後使用
+- `CarMediaConverter-Setup-x64-v1.4.0.exe`：安裝版
+- `CarMediaConverter-Portable-x64-v1.4.0.zip`：免安裝版，必須完整解壓縮後使用
 
 ## 主要功能
 
 - 快速轉檔：輸出通用 MP3，以及適合多數新式裝置或舊式播放設備的 MP4。
 - 影片轉檔：支援 MP4、MKV、AVI、MOV、TS、FLV、WebM、WMV、MPG、3GP 等常見容器，並可調整影像、音訊、解析度與畫質。
+- 自動解析度：可依一般裝置、新舊設備或舊型設備限制最高 1080p、720p 或 480p；小影片不會被強制放大。
 - AI 畫質放大：整合 Real-ESRGAN ncnn-vulkan，可選擇 2×、3× 或 4× 放大；實際速度取決於 Vulkan GPU。
 - 批次處理：提供整體進度、預估剩餘時間、處理紀錄與逐檔結果。
 - 完成驗證：輸出完成後會完整解碼，並確認影片／音訊串流符合所選用途。
