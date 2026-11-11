@@ -1,6 +1,6 @@
 # 媒體轉檔工具
 
-這是「媒體轉檔工具」的官方下載與版本發布 repo。目前正式版本為 **v1.5.0（Windows x64）**。
+這是「媒體轉檔工具」的官方下載與版本發布 repo。目前正式版本為 **v1.5.3（Windows x64）**。
 
 > 本 repo 是 release-only 發布入口，不公開程式原始碼。安裝檔與免安裝版只放在 GitHub Releases，不提交到 Git 歷史。
 
@@ -12,8 +12,8 @@
 
 一般 Windows 10／11 64-bit 電腦可選擇：
 
-- `CarMediaConverter-Setup-x64-v1.5.0.exe`：安裝版
-- `CarMediaConverter-Portable-x64-v1.5.0.zip`：免安裝版，必須完整解壓縮後使用
+- `CarMediaConverter-Setup-x64-v1.5.3.exe`：安裝版
+- `CarMediaConverter-Portable-x64-v1.5.3.zip`：免安裝版，必須完整解壓縮後使用
 
 ## 主要功能
 
